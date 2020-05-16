@@ -8,10 +8,10 @@
 
 .container-contact {
 	width: 90%;
-	background: #ffe04f;
+	background: #1a2f7d;
 	border-radius: 60% 60% 50% 40% / 50% 60% 80% 60%;
-	padding: 50px 0px 30px 0px;
-	box-shadow: 4px 4px 2px #404040;
+	padding: 70px 0px 30px 0px;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 	margin-left: 20%;
 
 }
@@ -66,14 +66,14 @@ textarea {
 	border-radius: 60% 60% 50% 40% / 50% 60% 80% 60%;
 	border-style:solid;
 	border:none;
-	color: #fffeff;
-	background: #2543b3;
+	color: #191716;
+	background: #ffd100;
 	font-weight: 700;
 	transition: .5s ease;
 }
 
 .contact-button:hover {
-	background: #3d67ff;
+	background: #ffd100;
 	width: 220px;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
