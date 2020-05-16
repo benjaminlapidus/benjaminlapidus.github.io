@@ -9,7 +9,7 @@
 .container-contact {
 	width: 90%;
 	background: #1a2f7d;
-	border-radius: 60% 60% 50% 40% / 50% 60% 80% 60%;
+	border-radius: 60% 40% 40% 70% / 60% 50% 60% 40%;
 	padding: 70px 0px 30px 0px;
 	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 	margin-left: 20%;
@@ -36,14 +36,14 @@ input {
 }
 
 textarea {
-	height: 120px;
+	height: 200px;
 	padding-top: 10px;
 	resize: none;
 }
 
 .wrapper-contact {
 	width: 100%;
-	margin-left: -15px;
+	margin-left: 8px;
 	display: flex;
 
 	align-items: center;
@@ -56,6 +56,7 @@ textarea {
 	align-items: center;
 	justify-content: center;
 	margin-top: 16px;
+	padding-left: 8px;
 }
 
 .contact-button {
@@ -63,7 +64,7 @@ textarea {
 	height: 40px;
 	border-radius: 10px;
 	font-size: 120%;
-	border-radius: 60% 60% 50% 40% / 50% 60% 80% 60%;
+	border-radius: 60% 60% 50% 40% / 50% 60% 50% 60%;
 	border-style:solid;
 	border:none;
 	color: #191716;

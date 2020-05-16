@@ -47,9 +47,9 @@
 			<div class="col-1-2-1">
 				<div class="module">
 					<div class="image-wrapper">
-					<img src="images/profile-backing.png" class="profile-backing" alt="Hello!" ondragstart="return false;">
-					<img src="images/profile.png" class="profile-pic" alt="Hello!" ondragstart="return false;"> 
-				</div>
+						<img src="images/profile-backing.png" class="profile-backing" alt="Hello!" ondragstart="return false;">
+						<img src="images/profile.png" class="profile-pic" alt="Hello!" ondragstart="return false;"> 
+					</div>
 				</div>
 			</div>
 
@@ -100,16 +100,89 @@
 			<div class="grid">
 				<div class="col-1-3">
 					<div class="module">
-						<h3>Portfolio</h3>
+						<div class="sticky">
+							<h3>Portfolio</h3>
+							<div class="portfolio-links">
+								<a href="https://www.linkedin.com/in/benjaminlapidus/" target="_blank">LinkedIn</a>
+								<a href="https://www.linkedin.com/in/benjaminlapidus/" target="_blank">LinkedIn</a>
+								<a href="https://www.linkedin.com/in/benjaminlapidus/" target="_blank">LinkedIn</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-2-3">
 					<div class="module">
-						<p>I'm going to put all my projects here in a flexbox card layout.</p>
-						<img src="smiley.gif" alt="Smiley face">
-						<p>Hello</p>
+						<div class="list-wrapper">
 
-
+							<ul class="left-portfolio-list" id="left-portfolio">
+								<li class="portfolio-item">
+									<a href="#" class="portfolio-item-link">
+										<div class = "img-hover-zoom">
+											<img src="images/profile-revolutionary.png" id="revolutionary">
+										</div>
+										<div class="portfolio-card-footer">
+											<div class="portfolio-tags">
+												<span>May 2020 • HTML/CSS/JavaScript</span>
+											</div>
+											<h4>Revolutionary</h4>
+											<div class="read-more-wrapper">
+												<span>Read More</span>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="portfolio-item">
+									<a href="#" class="portfolio-item-link">
+										<div class = "img-hover-zoom">
+											<img src="images/profile-wcsa.png" id="wcsa">
+										</div>
+										<div class="portfolio-card-footer">
+											<div class="portfolio-tags">
+												<span>March 2020 • HTML/UI Design</span>
+											</div>
+											<h4>Virtual Programming</h4>
+											<div class="read-more-wrapper">
+												<span>Read More</span>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul class="right-portfolio-list">
+								<li class="portfolio-item">
+									<a href="#" class="portfolio-item-link">
+										<div class = "img-hover-zoom">
+											<img src="images/profile-splash.png" id="splash">
+										</div>
+										<div class="portfolio-card-footer">
+											<div class="portfolio-tags">
+												<span>December 2019 • Swift</span>
+											</div>
+											<h4>Splash</h4>
+											<div class="read-more-wrapper">
+												<span>Read More</span>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="portfolio-item">
+									<a href="#" class="portfolio-item-link">
+										<div class = "img-hover-zoom">
+											<img src="images/profile-court.png" id="court">
+										</div>
+										<div class="portfolio-card-footer">
+											<div class="portfolio-tags">
+												<span>August 2019 • Java/SQL</span>
+											</div>
+											<h4>E.T.M.S.</h4>
+											<div class="read-more-wrapper">
+												<span>Read More</span>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -149,23 +222,21 @@
 
 						<div class="container-contact">
 							<div class="wrapper-contact">
-								<form class="contact-form validate-form">
+								<form class="contact-form validate-form" action="form-processor.php" method="post">
 									<div class="input-wrapper validate-input" data-validate="Please enter your name">
-										<input class="input" type="text" name="name" placeholder="Name">
+										<input class="input" type="text" placeholder="Name" id="name" name="name">
 										<span class="focus-input"></span>
 									</div>
 									<div class="input-wrapper validate-input" data-validate="Please enter your email: email@abc.com">
-										<input class="input" type="text" name="email" placeholder="Email">
+										<input class="input" type="email" placeholder="Email" id="mail" name="mail">
 										<span class="focus-input"></span>
 									</div>
 									<div class="input-wrapper validate-input" data-validate="Please enter your message">
-										<textarea class="input" name="message" placeholder="Message"></textarea>
+										<textarea class="input" placeholder="Message" id="message" name="message"></textarea>
 										<span class="focus-input"></span>
 									</div>
 									<div class="wrapper-contact-button">
-										<button class="contact-button">
-											Send
-										</button>
+										<input class="contact-button" type="submit" value="Send">
 									</div>
 								</form>
 							</div>
@@ -178,8 +249,6 @@
 	</section>
 
 	<footer>
-		<p>Ben Lapidus</p>
-	</footer>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
