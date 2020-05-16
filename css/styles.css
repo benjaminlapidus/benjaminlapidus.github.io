@@ -228,7 +228,7 @@ Head - profile image render and animation with backing
 .profile-backing {
 	left: 25px;
 	height: 1px;
-	top: 290px;
+	top: 320px;
 	animation-name: profile-scale;
 	animation-duration: 1.2s;
 	animation-fill-mode: forwards;
