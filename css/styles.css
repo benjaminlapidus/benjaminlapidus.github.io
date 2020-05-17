@@ -13,13 +13,24 @@ html, body {
 .container {
 	margin: 0 auto;
 	width: 80%;
-	max-width: 1100px;
+	max-width: 1200px;
 	border-radius: 10px;
 }
 
 .module {
 	height: 100%;
 }
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {display: inline-block; width: 100%;}
 
 
 
@@ -56,6 +67,10 @@ Each grid has a module div in every cell.
 }
 .col-1-3 {
 	width: 33.33%;
+}
+
+.col-1-3-sticky {
+	width: 100%;
 }
 .col-1-2-1 {
 	width: 50%;
@@ -244,8 +259,6 @@ Sections
 */
 
 section {
-	overflow: auto;
-	overflow-y: scroll; 
 	padding: 80px 0px;
 	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
@@ -255,7 +268,7 @@ section:nth-child(odd) {
 }
 
 section:nth-child(even) {
-	background-color: #ffd100;
+	background-color: #ebebeb;
 }
 
 h3 {
@@ -267,8 +280,8 @@ h3 {
 .sticky {
 	position: -webkit-sticky;
 	position: sticky;
-	left: 10px;
-	top: 20px;
+	top: 80px;
+	float:left;
 }
 section p {
 	color: #191716;

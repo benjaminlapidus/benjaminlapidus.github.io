@@ -8,8 +8,8 @@
 
 .container-contact {
 	width: 90%;
-	background: #1a2f7d;
-	border-radius: 60% 40% 40% 70% / 60% 50% 60% 40%;
+	background: rgb(41,69,173);
+	background: linear-gradient(200deg, rgba(41,69,173,1) 0%, rgba(26,47,125,1) 100%);	border-radius: 60% 40% 40% 70% / 60% 50% 60% 40%;
 	padding: 70px 0px 30px 0px;
 	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 	margin-left: 20%;
