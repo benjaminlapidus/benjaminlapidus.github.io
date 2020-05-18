@@ -3,16 +3,18 @@
 }
 
 .contact-form {
-	width: 55%;
+	width: 70%;
 }
 
 .container-contact {
-	width: 90%;
-	background: rgb(41,69,173);
-	background: linear-gradient(200deg, rgba(41,69,173,1) 0%, rgba(26,47,125,1) 100%);	border-radius: 60% 40% 40% 70% / 60% 50% 60% 40%;
-	padding: 70px 0px 30px 0px;
+	width: 70%;
+		background: rgb(252,96,255);
+	background: linear-gradient(214deg, rgba(252,96,255,1) 0%, rgba(249,152,251,1) 100%);
+	padding: 30px 10px;
+	border-radius: 10px;
+
 	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-	margin-left: 20%;
+	margin-left: 25%;
 
 }
 
@@ -43,7 +45,6 @@ textarea {
 
 .wrapper-contact {
 	width: 100%;
-	margin-left: 8px;
 	display: flex;
 
 	align-items: center;
@@ -67,14 +68,14 @@ textarea {
 	border-radius: 60% 60% 50% 40% / 50% 60% 50% 60%;
 	border-style:solid;
 	border:none;
-	color: #191716;
-	background: #ffd100;
+	color: #fffeff;
+		background: rgb(97,194,255);
+	background: linear-gradient(214deg, rgba(97,194,255,1) 0%, rgba(18,145,224,1) 100%);
 	font-weight: 700;
 	transition: .5s ease;
 }
 
 .contact-button:hover {
-	background: #ffd100;
 	width: 220px;
 	letter-spacing: 2px;
 }
