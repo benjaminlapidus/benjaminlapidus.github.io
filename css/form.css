@@ -8,8 +8,8 @@
 
 .container-contact {
 	width: 70%;
-	background: rgb(232,205,11);
-	background: linear-gradient(214deg, rgba(255,227,25,1) 0%, rgba(232,205,11,1) 100%);
+		background: rgb(97,194,255);
+	background: linear-gradient(214deg, rgba(97,194,255,1) 0%, rgba(18,145,224,1) 100%);
 	padding: 30px 10px;
 	border-radius: 10px;
 
@@ -73,18 +73,19 @@ textarea {
 	border-style:solid;
 	border:none;
 	color: #fffeff;
-		background: rgb(24,162,42);
-	background: linear-gradient(146deg, rgba(24,162,42,1) 0%, rgba(56,218,76,1) 100%);
+	background: rgb(252,96,255);
+	background: linear-gradient(214deg, rgba(252,96,255,1) 0%, rgba(249,152,251,1) 100%);
 	font-weight: 700;
 	transition: .5s ease;
-			box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+	cursor: pointer;
 
 }
 
 .contact-button:hover {
 	width: 220px;
 	letter-spacing: 2px;
-		box-shadow: 0px 3px 15px rgba(0,0,0,0.4);
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.9);
  
 }
 

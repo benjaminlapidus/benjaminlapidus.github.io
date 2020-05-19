@@ -84,7 +84,7 @@ Each grid has a module div in every cell.
 }
 
 .module p {
-	font-size: 160%;
+	font-size: 170%;
 	line-height: 180%;
 }
 
@@ -129,8 +129,23 @@ Head
 */
 
 .head {
- background: rgba(60,60,60,1);
+	background: rgba(60,60,60,1);
 	height: 85vh;
+}
+
+#about {
+	background: linear-gradient(
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.8)
+        ),url("../images/climbing-hold.svg");
+	 background-attachment: fixed;
+  background-position: center;
+}
+
+.about p {
+	background-color: #323232;
+	padding: 50px;
+	border-radius: 10px;
 }
 
 #head-content {
@@ -176,7 +191,7 @@ h2 {
 }
 
 .head-buttons img{
-	padding-bottom: 40px;
+	padding-bottom: 47px;
 	margin-bottom: 10px;
 	margin-left: 4px;
 	bottom: 0;
@@ -227,7 +242,7 @@ h2 {
 }
 
 .portfolio-button {
-	border: solid 2px rgb(97,194,255);
+	border: solid 2px rgb(252,96,255);
 	background-color: #323232;
 	animation-delay: 2.6s;
 
@@ -236,15 +251,15 @@ h2 {
 .linkedin-button {
 	font-size: 115%;
 	background-color: #212121;
-	border: solid 1px rgb(232,205,11);
-		animation-delay: 3.2s;
+	border: solid 1px rgb(97,194,255);
+	animation-delay: 3.2s;
 
 
 }
 
 .resume-button {
 		background-color: #212121;
-		border: solid 1px rgb(24,162,42);
+		border: solid 1px rgb(232,205,11);
 			animation-delay: 3.2s;
 
 
@@ -255,9 +270,9 @@ h2 {
 }
 
 .linkedin-button img {
-	height: 50px;
-	padding-bottom: 45px;
-	padding-left: 4px;
+	height: 64px;
+	padding-bottom: 41px;
+	margin-left: 2px;
 }
 
 .resume-button img {
@@ -329,6 +344,13 @@ Head - profile image render and animation with backing
 	animation-name: fourth;
 }
 
+#contact-1 {
+	border: solid 2px rgb(232,205,11);
+}
+#contact-2 {
+	border: solid 2px rgb(24,162,42);
+}
+
 @keyframes first {
 	0% {width: 40%;}
 	100% {width: 3.5%; opacity: 85%;}
@@ -393,6 +415,22 @@ img {
 	-moz-user-select: none; /* Old versions of Firefox */
 	-ms-user-select: none; /* Internet Explorer/Edge */
 	user-select: none;
+}
+
+#cs {
+	color: rgba(255,227,25,1);
+	font-weight: 700;
+}
+
+#econ {
+	color: rgba(56,218,76,1);
+	font-weight: 700;
+
+}
+
+#dms {
+	color: rgb(97,194,255);
+	font-weight: 700;
 }
 
 

@@ -15,29 +15,39 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/form.css">
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
-
-
-
-	
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <body>
 	
+
 <header class="headerBar">		
 	<nav>
-			<a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
-				<div class="xbutton" id="xbutton">
-					<div class="bar1"></div>
-					<div class="bar2"></div>
-					<div class="bar3"></div>
-				</div> 
-			</a>
+		<a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
+			<div class="xbutton" id="xbutton">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div> 
+		</a>
 		<div id="myNav" class="overlay">
-			<div class="overlay-content" id="overlay-content">
-				<a href="#" onclick="toggleNav()">Blog</a>
-				<a href="https://www.linkedin.com/in/benjaminlapidus/" target="_blank">LinkedIn</a>
-				<a href="assets/ben-lapidus-resume.pdf" target="_blank">Resume</a>
+			<div id="nav-bar-wrapper">
+				<div class="horizontal-bar pink-nav">
+					<a href="#">Blog<span class="outbound">»</span></a>
+				</div>
+				<div class="horizontal-bar blue-nav">
+					<a href="https://www.linkedin.com/in/benjaminlapidus/" target="_blank">LinkedIn<span class="outbound">»</span></a>
+
+				</div>
+				<div class="horizontal-bar yellow-nav">
+					<a href="assets/ben-lapidus-resume.pdf">Resume<span class="outbound">»</span></a>
+				</div>
+				<div class="horizontal-bar green-nav">
+					<a href="https://github.com/benjaminlapidus" target="_blank">GitHub<span class="outbound">»</span></a>
+
+				</div>
 			</div>
 		</div>
 	</nav>
@@ -71,7 +81,7 @@
 						<li>
 							<a href="assets/ben-lapidus-resume.pdf" target="_blank">
 								<div class="resume-button">
-									<img src="https://img.icons8.com/carbon-copy/100/000000/resume.png"/>
+									<img src="https://img.icons8.com/ios/80/000000/resume.png"/>
 									<span>Resume</span>
 								</div>
 							</a>
@@ -79,7 +89,7 @@
 						<li>
 							<a href="#portfolio">
 								<div class="portfolio-button">
-									<img src="https://img.icons8.com/windows/96/000000/portfolio.png"/>
+									<img src="https://img.icons8.com/ios/50/000000/portfolio.png"/>
 									<span>Portfolio</span>
 								</div>
 							</a>
@@ -87,7 +97,7 @@
 						<li>
 							<a href="https://www.linkedin.com/in/benjaminlapidus/" target="_blank">
 								<div class="linkedin-button">
-									<img src="https://img.icons8.com/android/96/000000/linkedin.png">
+									<img src="https://img.icons8.com/windows/64/000000/linkedin.png"/>
 									<span>LinkedIn</span>
 								</div>
 							</a>
@@ -142,7 +152,7 @@
 												<div class="portfolio-tags">
 													<span>March 2020 • HTML/UI Design</span>
 												</div>
-											
+
 											</div>
 										</a>
 									</li>
@@ -196,7 +206,7 @@
 					</div>
 					<div class="col-2-3">
 						<div class="module">
-							<p>I am an award-winning full-stack web developer and UI/UX javascript specialist. Check out my articles, React and React Native UI components at the code laboratory. Feel free to take a look at my latest projects on the web portfolio page. Remotely available UTC−1 to UTC+8. rafael@caferati.me</p>	
+							<p>I’m a student and incoming developer majoring in <span id="cs">Computer Science</span> and <span id="econ">Economics</span> with a minor in <span id="dms">Digital Media Studies</span>. As a developer, I'm bringing ideas to life by using priciples founded in economics. Analytical, curious, and independent thinking drive my passion for creating beautiful and thoughtful user experiences.</p>	
 						</div>
 					</div>
 				</div>
@@ -211,8 +221,10 @@
 					<div class="col-1-3">
 						<div class="module">
 							<h3>Contact</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div class="portfolio-links">
+								<span id="contact-1">blapidus@u.rochester.edu</span>
+								<span id="contact-2">(631) 521-9939</span>
+							</div>
 						</div>
 					</div>
 					<div class="col-2-3">
@@ -239,7 +251,6 @@
 									</form>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -248,20 +259,78 @@
 	</section>
 
 	<footer>
-		<p>Ben Lapidus</p>
+		<div class="footer-container">
+			<div class="footer-wrapper">
+				<div class="footer-icon-wrapper">
+					<ul class="footer-icons">
+						<li>
+							<a href="https://www.linkedin.com/in/benjaminlapidus/" target="_blank">
+								<img src="images/linkedin.svg">
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/benjaminlapidus" target="_blank">
+								<img src="images/github.svg">
+							</a>
+						</li>
+						<li>
+							<a href="assets/ben-lapidus-resume.pdf" target="_blank">
+								<img src="images/resume.svg">
+							</a>
+						</li>
+						<li>
+							<a href="mailto:blapidus@u.rochester.edu" target="_blank">
+								<img src="images/email.svg">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-link-wrapper">
+					<ul class="footer-links">
+						<a href="#portfolio" target="_blank">
+							<li>
+								<span>Portfolio</span>
+							</li>
+						</a>
+						
+						
+						<a href="#about" target="_blank">
+							<li>
+								<span>About</span>
+							</li>
+						</a>
+						
+						
+						<a href="#contact" target="_blank">
+							<li>
+								<span>Contact</span>
+							</li>
+						</a>
+						
+					</ul>
+				</div>
+				<div class="footer-credit-wrapper">
+					<ul class="footer-credits">
+						<li><a href="https://www.vecteezy.com/free-vector/climbing-holds">Climbing Holds Vectors by Vecteezy</a></li>
+						<li>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+						<li>©2020 Ben Lapidus</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</footer>
 
 	<svg height="0" xmlns="http://www.w3.org/2000/svg">
-    <filter id="drop-shadow">
-        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
-        <feOffset dx="15" dy="0" result="offsetblur"/>
-        <feFlood flood-color="rgba(0,0,0,0.2)"/>
-        <feComposite in2="offsetblur" operator="in"/>
-        <feMerge>
-            <feMergeNode/>
-            <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-    </filter>
+		<filter id="drop-shadow">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+			<feOffset dx="15" dy="0" result="offsetblur"/>
+			<feFlood flood-color="rgba(0,0,0,0.2)"/>
+			<feComposite in2="offsetblur" operator="in"/>
+			<feMerge>
+				<feMergeNode/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
 	</svg>
 
 
