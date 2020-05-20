@@ -302,7 +302,7 @@ width:100%;
 height:85vh;
 position:absolute;
 overflow:hidden;
-z-index:1;
+z-index:9;
 }
 
 .vertical-bar {
