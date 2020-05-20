@@ -395,7 +395,7 @@ Fade in animation
 
 @keyframes delay-entry {
 0% {
-opacity:0;
+opacity:100%;
 }
 
 100% {
