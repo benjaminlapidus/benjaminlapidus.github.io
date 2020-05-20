@@ -113,7 +113,6 @@ animation-delay:.2s;
 }
 
 .head-title {
-background-color: orange;
 margin:15vh 0 0;
 animation-duration:1s;
 animation-name:delay-entry;
@@ -516,7 +515,7 @@ Mobile Optimization
 
 	.col-1-2-1 .profile-pic {
 		position:absolute;
-		left:-100px;
+		left:-60px;
 	}
 
 	.portfolio-button img {
@@ -528,11 +527,23 @@ Mobile Optimization
 	}
 
 	.profile-pic {
-		height:60%;
+		height:70%;
 	}
 }
 
 @media (max-width: 375px) {
+
+	.head-buttons {
+		display: none;
+		left: auto;
+		flex-direction:column;
+		position:absolute;
+		right:10px;
+		margin:30px 0px 20px;
+		z-index: 800;
+		width: 125px;
+	}
+
 	h1 {
 		font-size:7vh;
 	}
@@ -541,7 +552,7 @@ Mobile Optimization
 	}
 
 	.profile-pic {
-		height:50%;
+		height:60%;
 	}
 }
 
