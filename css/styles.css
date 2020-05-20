@@ -109,15 +109,13 @@ bottom:0;
 animation-duration:1s;
 animation-name:delay-entry;
 animation-fill-mode:forwards;
-animation-delay:.2s;
 }
 
 .head-title {
 margin:15vh 0 0;
-animation-duration:1s;
+animation-duration:2s;
 animation-name:delay-entry;
 animation-fill-mode:forwards;
-animation-delay:1s;
 }
 
 .head-buttons {
@@ -149,7 +147,7 @@ font-size:110%;
 transition:box-shadow .5s;
 border-radius:10px;
 z-index:3;
-animation-duration:1s;
+animation-duration:2s;
 animation-name:delay-entry;
 animation-fill-mode:forwards;
 box-shadow:0 4px 20px rgba(0,0,0,0.2);
@@ -159,19 +157,19 @@ text-decoration:none;
 .portfolio-button {
 border:solid 2px #fc60ff;
 background-color:#323232;
-animation-delay:2.6s;
+animation-duration:2.7s;
 }
 
 .linkedin-button {
 background-color:#212121;
 border:solid 1px #61c2ff;
-animation-delay:3.2s;
+animation-duration:4s;
 }
 
 .resume-button {
 background-color:#212121;
 border:solid 1px #e8cd0b;
-animation-delay:3.2s;
+animation-duration:4s;
 }
 
 .head-buttons div:hover {
@@ -531,7 +529,7 @@ Mobile Optimization
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 374px) {
 
 	.head-buttons {
 		display: none;
