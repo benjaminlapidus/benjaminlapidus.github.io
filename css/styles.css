@@ -63,13 +63,10 @@ width:100%;
 .col-1-2-1 {
 width:50%;
 height:100%;
-background-color: red;
 }
 
 .col-1-2-2 {
 width:50%;
-background-color: green;
-
 }
 
 .module {
@@ -117,6 +114,7 @@ opacity:0;
 }
 
 .head-title {
+	background-color: orange;
 margin:15vh 0 0;
 opacity:0;
 animation-duration:1s;
