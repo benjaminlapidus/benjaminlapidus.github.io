@@ -110,13 +110,11 @@ animation-duration:1s;
 animation-name:delay-entry;
 animation-fill-mode:forwards;
 animation-delay:.2s;
-opacity:0;
 }
 
 .head-title {
-	background-color: orange;
+background-color: orange;
 margin:15vh 0 0;
-opacity:0;
 animation-duration:1s;
 animation-name:delay-entry;
 animation-fill-mode:forwards;
@@ -152,7 +150,6 @@ font-size:110%;
 transition:box-shadow .5s;
 border-radius:10px;
 z-index:3;
-opacity:0;
 animation-duration:1s;
 animation-name:delay-entry;
 animation-fill-mode:forwards;
