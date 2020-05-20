@@ -91,3 +91,9 @@ width:220px;
 letter-spacing:2px;
 box-shadow:0 3px 15px rgba(0,0,0,0.9);
 }
+
+@media (max-width: 1215px) {
+	#contact-1 {
+		font-size: 120%;
+	}
+}

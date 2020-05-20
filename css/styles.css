@@ -248,6 +248,11 @@ color:#61c2ff;
 font-weight:700;
 }
 
+#beauty {
+color:rgba(252,96,255,1);
+font-weight:700;
+}
+
 /*
 Button to return to top of page
 */
@@ -479,6 +484,16 @@ Mobile Optimization
 		width: 125px;
 	}
 
+	.head-buttons div {
+		padding: 64px 20px 20px;
+	}
+
+	.head-buttons img {
+		padding-bottom: 58px;
+		height: 58px;
+		padding-left: 3px;
+	}
+
 	@keyframes bar-first {
 		100% {
 			width:3px;
@@ -517,11 +532,15 @@ Mobile Optimization
 	}
 
 	.portfolio-button img {
-		top:175px;
+		top:145px;
 	}
 
 	.resume-button img {
-		top:30px;
+		top:18px;
+	}
+
+	.linkedin-button img{
+		padding-bottom: 52px;
 	}
 
 	.profile-pic {
@@ -533,13 +552,6 @@ Mobile Optimization
 
 	.head-buttons {
 		display: none;
-		left: auto;
-		flex-direction:column;
-		position:absolute;
-		right:10px;
-		margin:30px 0px 20px;
-		z-index: 800;
-		width: 125px;
 	}
 
 	h1 {

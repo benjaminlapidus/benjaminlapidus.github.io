@@ -209,6 +209,10 @@ margin-left:8px;
 	.list-wrapper ul:first-of-type {
 		margin: 0px 0px 0px 25%;
 	}
+
+	.portfolio-links a,#contact-1,#contact-2 {
+		font-size: 125%;
+	}
 }
 
 @media (max-width: 990px) {
@@ -254,13 +258,14 @@ margin-left:8px;
     width: 80%;
 }
 
+
 .list-wrapper ul:last-of-type, .list-wrapper ul:first-of-type {
     width: 95%;
 }
 
 .container-contact {
 	margin: 0px 10px;
-	width: 85%;
+	width: 89%;
 }
 
 .module p {
