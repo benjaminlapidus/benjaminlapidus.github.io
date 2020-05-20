@@ -103,7 +103,7 @@ height:100%;
 }
 
 .profile-pic {
-height:580px;
+height:90%;
 z-index:10;
 bottom:0;
 animation-duration:1s;
@@ -436,7 +436,7 @@ Mobile Optimization
 	}
 
 	.profile-pic {
-		height:450px;
+		height:80%;
 	}
 
 	.head-buttons {
@@ -528,7 +528,7 @@ Mobile Optimization
 	}
 
 	.profile-pic {
-		height:450px;
+		height:60%;
 	}
 }
 
@@ -539,4 +539,9 @@ Mobile Optimization
 	h2 {
 		font-size:3vh;
 	}
+
+	.profile-pic {
+		height:50%;
+	}
 }
+
