@@ -63,10 +63,13 @@ width:100%;
 .col-1-2-1 {
 width:50%;
 height:100%;
+background-color: red;
 }
 
 .col-1-2-2 {
 width:50%;
+background-color: green;
+
 }
 
 .module {
@@ -395,7 +398,7 @@ Fade in animation
 
 @keyframes delay-entry {
 0% {
-opacity:100%;
+opacity:0%;
 }
 
 100% {
