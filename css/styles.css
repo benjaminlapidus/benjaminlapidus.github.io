@@ -9,6 +9,10 @@ background-color:#191716;
 font-weight:400;
 }
 
+a {
+	text-decoration: none;
+}
+
 .container {
 margin:0 auto;
 width:80%;
